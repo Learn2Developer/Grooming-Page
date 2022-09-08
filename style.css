@@ -1,0 +1,24 @@
+#welcome {
+    text-align: center;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(113, 236, 236);
+}
+
+#about {
+    font-size: large;
+}
+
+p {
+    text-align: center;
+    display: inline-flex;
+    font-size: x-large;
+}
+
+li {
+    display: inline-flex;
+    padding: 0 15px;
+    font-size: larger;
+}

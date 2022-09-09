@@ -12,6 +12,9 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
     <script type="text/javascript" src="https://livejs.com/live.js"></script>
 </head>
 
@@ -19,28 +22,45 @@
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <section class="login">
+    <form action="login.html" method="POST">
 
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username">
+        <section class="login" style="text-align:right;;">
 
-        <br>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
 
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password">
+            <br>
 
-    </section>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+
+            <br>
+
+            <input type="submit" value="Login">
+
+        </section>
+    </form>
+
+
     <section class="welcome">
         <h1>Hello and welcome to Doggy Styles! Where we doo it!</h1>
     </section>
-    <nav class="nav">
+    <section class="nav">
         <ul>
-            <li><a href="">Services</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#media">Media</a></li>
-            <li><a href="">Find Us!</a></li>
+            <li><a href="#services">
+                    <div class="link">Services</div>
+                </a></li>
+            <li><a href="#about">
+                    <div class="link">About</div>
+                </a></li>
+            <li><a href="#media">
+                    <div class="link"></div>Media</div>
+                </a></li>
+            <li><a href="#map">
+                    <div class="link">Find Us!</div>
+                </a></li>
         </ul>
-    </nav>
+    </section>
     <section class="about">
         <p>Hi there! We're Emily and Jesse.</p>
         <br>
